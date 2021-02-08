@@ -1,12 +1,13 @@
-## Install
+# About
 
-1. in `elements/`: `npm install`
-2. in `storybook/`: `npm install --legacy-peer-deps` [see [storybook issue](https://github.com/storybookjs/storybook/issues/12983)]
+This is a boilerplate setup for developing stencil components.
 
-## Dev
+It contains a barebones showcase project that automatically updates links for viewing demos and docs
 
-1. Run `npm start` from inside `storybook`
-2. Code stuff :)
-3. Note helpful aliases:
-    - `@elements` to import the elements in Storybook
-    - `@utils` to import from `ts-utils` anywhere
+# Usage
+
+1. `npm install` 
+2. `npm start`
+3. Check out this youtube video: [https://youtu.be/5PDZege_nOA](https://youtu.be/5PDZege_nOA)
+
+Top-level folders are aliased with `@` prefix to make relative imports easier (e.g. `@utils/path`)
