@@ -1,0 +1,1 @@
+export const uiPath = (path:string) => `/static/images/${path}`;
